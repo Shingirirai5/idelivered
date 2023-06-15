@@ -82,12 +82,20 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">Digital Platform for /Min Car Rental</h1>
-          <h2 style="background-color: #ffffff;" data-aos="fade-up" data-aos-delay="400" class="animation">
-            <div class="first"><div>Industry solution driving</div></div>
-            <div class="second"><div>convenience through technology.</div></div>
-            <div class="third"><div>Systems Engineer</div></div>
-          </h2>
+          <h1 data-aos="fade-up">Digital Platform for
+            <div class="typewriter-container">
+            <div class="typewriter" style="font-family: Raleway; font-weight: 60%; font-size: 75%;">
+              <span style="display: none;">Mailbox Service</span>
+              <span style="display: none;">Per Min Car Rental</span>
+              <span style="display: none;">Online Stores</span>
+              <span style="display: none;">myMoney Balance</span>
+              <span style="display: none;">Last-Mile Courier</span>
+              <span style="display: none;">Foods Delivery</span>
+              <span style="display: none;">Air &amp; Sea Freight</span>
+            </div>
+          </div>
+            <span class="cursor"></span>
+          </h1>
 
           <div data-aos="fade-up" data-aos-delay="800">
             <a href="https://apps.apple.com/za/app/ideliverd/id1472972185 " ><img src="assets/img/google-store.png " style="height:45px "/></a>
@@ -328,6 +336,27 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
+  <script>
+    // JavaScript code to loop through the words
+    const typewriterWords = document.querySelectorAll('.typewriter span');
+    let wordIndex = 0;
+    
+    function typeWords() {
+      typewriterWords[wordIndex].style.display = 'inline-block';
+      typewriterWords[wordIndex].classList.add('typewriter');
+    
+      setTimeout(function() {
+        setTimeout(function() {
+          typewriterWords[wordIndex].classList.remove('typewriter');
+          typewriterWords[wordIndex].style.display = 'none';
+          wordIndex = (wordIndex + 1) % typewriterWords.length;
+          typeWords();
+        }, 1000); // Delay before deleting the word (1 second)
+      }, 4000); // Delay before typing the next word (4 seconds)
+    }
+    
+    typeWords();
+    </script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
