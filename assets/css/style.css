@@ -873,6 +873,49 @@ section {
   z-index: 1;
 }
 
+.features .tech {
+  padding: 30px;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  background: #dfdede;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 2px;
+  z-index: 1;
+}
+
+.features .icon-box {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #f6f6f6;
+  transition: ease-in-out 0.3s;
+}
+
+
+.features .tech h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+}
+
+.features .icon-box h3 a {
+  color: #222222;
+  transition: ease-in-out 0.3s;
+}
+
+.features .tech h3 a:hover {
+  color: #800000;
+}
+
+.features .tech:hover {
+  background: #eef7fc;
+}
+
 .services .icon-box::before {
   content: '';
   position: absolute;
@@ -885,6 +928,19 @@ section {
   transition: all 0.3s;
   z-index: -1;
 }
+
+.services .read-more a {
+  color: #777777;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  transition: 0.4s;
+}
+
+.services .read-more a:hover {
+  color: white;
+}
+
 
 .services .icon-box:hover::before {
   background: #800000;
@@ -1000,6 +1056,72 @@ section {
 
 .more-services .card:hover .read-more a, .more-services .card:hover .card-title, .more-services .card:hover .card-title a, .more-services .card:hover .card-text {
   color: #fff;
+}
+
+.flag-container-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 0px;  
+    margin-bottom: 0px;
+}
+
+.flag .flag-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -10px; 
+}
+
+
+
+.flag .continent-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 1em;
+}
+
+hr {
+    height: 1px;
+    background-color: #ccc;
+    width: 99%;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    background: #fff;
+    
+    color: #222222;
+    font-size: 14px;
+}
+
+.lag .flag-group {
+  flex-basis: calc(33.33% - 20px); /* Adjust the flex-basis to fit three cards per row */
+ 
+  padding: 20px;
+  
+  border-radius: 5px;
+}
+
+.flag .country {
+  display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: small;
+}
+
+.flag .country .flag {
+  margin-right: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+@media screen and (max-width: 767px) {
+  .flag .flag-group {
+    flex-basis: 100%; /* On smaller screens, make each card occupy the full width */
+  }
 }
 
 /*--------------------------------------------------------------
