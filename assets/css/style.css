@@ -103,6 +103,40 @@ h1, h2, h3, h4, h5, h6 {
   animation-delay: 6s;
 }
 
+.animation .animate-word div:nth-child(4) {
+  animation-delay: 9s;
+}
+
+.typewriter-container {
+  width: 100%; /* Adjust the container width as needed */
+  overflow: hidden;
+}
+
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: normal;
+  animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+/* CSS animation for typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* CSS animation for cursor blinking */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+.animation .animate-word div:nth-child(5) {
+  animation-delay: 12s;
+}
 
 .animation div:first-child {
   animation: text-animation 8s infinite;
@@ -117,6 +151,16 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
 }
 .third div {
+  font-family: "Raleway", sans-serif;
+  color: black;
+}
+
+.fourth div {
+  font-family: "Raleway", sans-serif;
+  color: black;
+}
+
+.fifth div {
   font-family: "Raleway", sans-serif;
   color: black;
 }
