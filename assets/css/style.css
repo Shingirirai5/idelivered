@@ -234,9 +234,17 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
 }
 
+.nav-menu .small-desc {
+  font-size: 12px;
+  color: #999;
+  padding: 8px 0 12px 25px;
+}
+
+
 .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
+  line-height: 1.2;
   float: left;
 }
 
@@ -244,6 +252,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   position: relative;
   color: #555555;
+  line-height: 1.2;
   padding: 8px 0 12px 25px;
   transition: 0.3s;
   font-size: 14px;
@@ -497,18 +506,19 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: small;
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 30px;
-  border-radius: 50px;
+  border-radius: 10px;
   transition: 0.5s;
-  color: #800000;
-  border: 2px solid #800000;
+  color: #0b0b0b;
+  border: 2px solid #0c0c0c;
 }
 
 #hero .btn-get-started:hover {
   background: #800000;
+  border-color: #800000;
   color: #fff;
 }
 
@@ -641,7 +651,7 @@ section {
 }
 
 .clients img {
-  width: 80%;
+  height: 110%;
   -webkit-filter: grayscale(100);
   filter: grayscale(100);
   transition: all 0.4s ease-in-out;
@@ -873,6 +883,47 @@ section {
   z-index: 1;
 }
 
+.services .icon-box2 {
+  padding: 30px;
+  position: relative;
+  text-align: center;
+  line-height: 1px;
+  overflow: hidden;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.services .icon-box3 {
+  padding: 30px;
+  position: relative;
+  line-height: 1px;
+  overflow: hidden;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.services .icon-box2 p {
+  font-size: small;
+  line-height: 1.3;
+}
+
+.services .icon-box3 p {
+  font-size: small;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.services .icon-box p {
+  font-size: small;
+  line-height: 1.5;
+}
+
+
+
 .features .tech {
   padding: 30px;
   position: relative;
@@ -930,7 +981,7 @@ section {
 }
 
 .services .read-more a {
-  color: #777777;
+  color: #393838;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 12px;
@@ -938,7 +989,7 @@ section {
 }
 
 .services .read-more a:hover {
-  color: white;
+  color: #800000;
 }
 
 
