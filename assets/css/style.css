@@ -949,6 +949,25 @@ section {
   z-index: 1;
 }
 
+.services .icon-box5 {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+  width: calc(33.33% - 20px); /* Adjust the width to 33.33% and subtract the desired margin/padding */
+  margin: 10px; 
+}
+
+@media screen and (max-width: 768px) {
+  .services .icon-box5 {
+    width: calc(50% - 20px); /* Adjust the width to 50% and subtract the desired margin/padding */
+  }
+}
+
 .services .icon-box2 {
   padding: 30px;
   position: relative;
@@ -1691,7 +1710,7 @@ hr {
 }
 
 .faq .faq-item h4 {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 26px;
   font-weight: 500;
   margin: 0 0 10px 32px;
@@ -1699,7 +1718,7 @@ hr {
 }
 
 .faq .faq-item p {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 /*--------------------------------------------------------------
