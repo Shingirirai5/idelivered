@@ -115,11 +115,21 @@ h1, h2, h3, h4, h5, h6 {
 .typewriter {
   display: inline-block;
   overflow: hidden;
-  border-right: .15em solid orange;
+  border-right: 2px solid black;
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: normal;
   animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+ /* Styling for the cursor */
+ .cursor {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 4px;
+  height: 50px;
+  background-color: #000;
+  animation: blink-caret 0.75s step-end infinite;
 }
 
 /* CSS animation for typing effect */
@@ -128,7 +138,8 @@ h1, h2, h3, h4, h5, h6 {
   to { width: 100% }
 }
 
-/* CSS animation for cursor blinking */
+
+
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: white; }
@@ -688,7 +699,7 @@ section {
 }
 
 .clients img {
-  height: 110%;
+  height: 80%;
   -webkit-filter: grayscale(100);
   filter: grayscale(100);
   transition: all 0.4s ease-in-out;
