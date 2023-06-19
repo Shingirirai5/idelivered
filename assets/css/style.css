@@ -497,6 +497,14 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
 }
 
+#hero h3 {
+  margin: 0 0 10px 0;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 40px;
+  color: black;
+}
+
 #hero h2 {
   color: #484848;
   margin-bottom: 50px;
@@ -509,17 +517,46 @@ h1, h2, h3, h4, h5, h6 {
   font-size: small;
   letter-spacing: 1px;
   display: inline-block;
+  padding: 8px 25px;
+  border-radius: 10px;
+  transition: 0.5s;
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+#hero .btn-get-started2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: small;
+  letter-spacing: 1px;
+  display: inline-block;
   padding: 10px 30px;
   border-radius: 10px;
   transition: 0.5s;
-  color: #0b0b0b;
-  border: 2px solid #0c0c0c;
+  color: #ffffff;
+  border: 2px solid #ffffff;
 }
+
 
 #hero .btn-get-started:hover {
   background: #800000;
   border-color: #800000;
   color: #fff;
+}
+
+#hero .background-card {
+  background-color: rgba(255, 255, 255, 0.7); /* Use any color and opacity you prefer */
+  padding: 20px; /* Adjust the padding as needed */
+  border-radius: 5px;
+}
+
+
+#hero {
+  background-image: url("assets/img/bann.jpg");
+  /* Additional background properties */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* You can add more background properties here as needed */
 }
 
 #hero .animated {
