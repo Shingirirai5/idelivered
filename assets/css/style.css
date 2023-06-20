@@ -125,11 +125,10 @@ h1, h2, h3, h4, h5, h6 {
  /* Styling for the cursor */
  .cursor {
   display: inline-block;
-  vertical-align: bottom;
   width: 4px;
   height: 50px;
   background-color: #000;
-  animation: blink-caret 0.75s step-end infinite;
+  animation: blink-caret 0.7s step-end infinite;
 }
 
 /* CSS animation for typing effect */
@@ -141,9 +140,15 @@ h1, h2, h3, h4, h5, h6 {
 
 
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: white; }
+  0%, 40%, 100% {
+    border-color: transparent;
+  }
+  45%, 55% {
+    border-color: white;
+  }
 }
+
+
 
 .animation .animate-word div:nth-child(5) {
   animation-delay: 12s;
