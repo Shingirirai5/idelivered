@@ -663,7 +663,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 26px;
+  font-size: 22px;
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
@@ -672,7 +672,7 @@ section {
 
 .section-title h2::before, .section-title h2::after {
   content: '';
-  width: 50px;
+  width: 10px;
   height: 2px;
   background: #800000;
   display: inline-block;
@@ -1041,6 +1041,8 @@ section {
   position: relative;
   text-align: center;
   line-height: 1px;
+  box-shadow: white;
+  line-height: 1.2;
   overflow: hidden;
   background: #fff;
   transition: all 0.3s ease-in-out;
