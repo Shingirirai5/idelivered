@@ -331,10 +331,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down > a:after {
-  content: "\ea99";
+  content: none;
   font-family: IcoFont;
   padding-left: 5px;
 }
+
+
 
 .nav-menu .drop-down .drop-down ul {
   top: 0;
@@ -352,7 +354,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down .drop-down > a:after {
-  content: "\eaa0";
+  content:none;
   font-family: IcoFont;
   position: absolute;
   right: 15px;
@@ -661,7 +663,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size: 26px;
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
@@ -703,6 +705,8 @@ section {
   justify-content: center;
 }
 
+
+
 .clients img {
   height: 80%;
   -webkit-filter: grayscale(100);
@@ -723,6 +727,17 @@ section {
     width: 40%;
   }
 }
+
+#clients .col-lg-2 img {
+  width: 100%;
+  height: auto;
+}
+
+.clients .col-lg-2 img {
+  width: 100%;
+  height: auto;
+}
+
 
 @media (max-width: 575px) {
   .clients img {
@@ -1370,8 +1385,8 @@ hr {
 
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
-  border-radius: 10px;
-  border: 6px solid #fff;
+  border-radius: 50%;
+  border: 3px solid #fff;
   position: absolute;
   left: -45px;
 }
