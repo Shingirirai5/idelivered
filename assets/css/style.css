@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin-top: 0px;
   margin: 0;
-  max-height: 40px;
+  max-height: 32px;
 }
 
 @media (max-width: 768px) {
@@ -901,10 +901,9 @@ section {
 }
 
 .counts .column h3 {
-  font-size: 100%;
+  font-size: 23px;
   transition: ease-in-out 0.3s;
   font-weight: bold;
-  text-transform: uppercase;
   position: relative;
   color: #222222;
 }
