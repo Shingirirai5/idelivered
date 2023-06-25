@@ -1482,6 +1482,8 @@ hr {
   margin-bottom: 30px;
 }
 
+
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 20px auto;
@@ -2069,6 +2071,18 @@ hr {
   font-size: 14px;
 }
 
+#footer .separator {
+  margin: 0 5px; /* Adjust the spacing around the separator */
+  color: #000; /* Set the color of the separator */
+  font-weight: bold; /* Optionally set the font weight */
+}
+
+
+.separator {
+  margin: 0 5px; /* Adjust the spacing around the separator */
+  color: #000; /* Set the color of the separator */
+  font-weight: bold; /* Optionally set the font weight */
+}
 #footer .credits {
   font-size: 13px;
   padding-top: 5px;
