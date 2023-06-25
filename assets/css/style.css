@@ -902,6 +902,7 @@ section {
 
 .counts .column h3 {
   font-size: 23px;
+  margin-top: 5px;
   transition: ease-in-out 0.3s;
   font-weight: bold;
   position: relative;
