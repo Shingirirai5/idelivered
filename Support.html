@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Support</title>
+  <meta content="" name="idelivered">
+  <meta content="" name="idelivered">
+
+  <!-- Favicons -->
+  <link href="assets/img/fav.png" rel="icon">
+  <link href="assets/img/fav.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-A4zg5Ekv3ZTMyE2BNLo8lhpfSjQUhlEeIOX7pU6CxfQd+vV3OHb4+Rd7jDgIN+fEnQQGp/sCEshfz6Kpj8AnvA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icon-css@3.5.0/css/flag-icon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    .content {
+      display: none;
+    }
+    .active2 {
+      color: #fff;
+      background: #800000;
+    }
+    .header {
+      display: inline-block;
+      cursor: pointer;
+      margin-right: 8px;
+      cursor: pointer;
+      display: inline-block;
+      padding: 8px 15px 10px 15px;
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 1;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+      transition: all 0.3s ease-in-out;
+      border-radius: 3px;
+    }
+
+    .content {
+
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1;
+      transition: all 0.3s ease-in-out;
+    }
+    .question {
+      margin-top: 20px;
+      position: relative;
+      cursor: pointer;
+      font-size: 16px;
+      padding-right: 25px;
+    }
+
+
+    .dropdown-icon {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      transition: transform 0.3s;
+    }
+    .expanded .dropdown-icon {
+      transform: translateY(-50%) rotate(90deg);
+    }
+    .answer {
+      margin-top: 10px;
+      position: relative;
+      font-size: 15px;
+      padding-right: 35px;
+      line-height: 1.4;
+      margin-left: 25px;
+      font-weight: 500;
+      font-style: italic;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <div class="logo mr-auto">
+        <!--<h1 class="text-light"><a href="index.html"><span>Vesperr</span></a></h1>-->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html"><img src="assets/img/logo.png" style="height:40%;" class="img-fluid"></a>
+      </div>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li class="drop-down" ><a href="">PRODUCTS</a>
+            <ul>
+              <li><a href="#">Shop <span style="font-size: 14px; color: #999;"> <br>Top Brands Delivered </span></a></li>
+              <li><a href="frieght.html">Freight <span style="font-size: 14px; color: #999;"> <br>Land, Air &amp; Sea</span></a></li>
+              <li><a href="mailbox.html">Mailbox <span style="font-size: 14px; color: #999;"> <br>Global Digital Service</span></a></li>
+              <li><a href="#">Mobility <span style="font-size: 14px; color: #999;"> <br>Per Min Car Rental </span></a></li>
+              <li><a href="#">Foods Delivery <span style="font-size: 14px; color: #999;"> <br>Favorite Stores Delivered </span></a></li>
+              </ul>
+          </li>
+          <li class="drop-down"><a href="">SOLUTIONS</a>
+            <ul>
+              <li><a href="#">Money <span style="font-size: 14px; color: #999;"> <br>Manage your wallet</span> </a></li>
+              <li><a href="#">Last Mile <span style="font-size: 14px; color: #999;"> <br>Delivery Software</span></a></li>
+              <li><a href="#">Integrations <span style="font-size: 14px; color: #999;"> <br>Work with our API</span> </a></li>
+              </ul>
+          </li>
+          <li class="drop-down"><a href="">PARTNERS</a>
+            <ul>
+              <li><a href="#">Drive</a></li>
+              <li><a href="#">Fleet</a></li>
+              <li><a href="#">Merchants</a></li>
+              <li><a href="#">Franchise</a></li>
+              </ul>
+          </li>
+          <li class="drop-down"><a href="">TECHNOLOGY</a>
+            <ul>
+              <li><a href="#">iDeliverd AI</a></li>
+              <li><a href="#">API Document</a></li>
+              <li><a href="#">Partners</a></li>
+              <li><a href="#">Compliance</a></li>
+              <li><a href="#">Consumer Protection</a></li>
+              </ul>
+          </li>
+          <li class="drop-down"><a href="">COMPANY</a>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Career</a></li>
+              <li><a href="#">Press</a></li>
+              </ul>
+          </li>
+
+          <li class="get-started"><a href="#about">Get Started</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+
+
+
+  <main id="main">
+
+   <br>
+   <br>
+   <br>
+   <br>
+  
+   <section id="questions" class="questions">
+    <div class="section-title" data-aos="fade-up">
+      <h2>Welcome to iDeliverd Help & Support Center.</h2>
+      <p>We are here to help you!</p>
+    </div>
+
+    <div class="row" data-aos="fade-up" data-aos-delay="200" style="text-align: center;">
+      <div class="col-lg-12 d-flex justify-content-center">
+        <div class="container" style="margin-bottom: 15px;">
+          <div class="header-row">
+            <h2 class="header active2" data-target="content1">Account &amp; Order</h2>
+            <h2 class="header" data-target="content2">Payment &amp; Rewards</h2>
+            <h2 class="header" data-target="content3">Return &amp; Refund</h2>
+            <h2 class="header" data-target="content4">Franchise &amp; Partners</h2>
+            <h2 class="header" data-target="content5">Integration Document</h2>
+            <h2 class="header" data-target="content6">Shipping &amp; Delivery</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" data-aos="fade-up" data-aos-delay="300">
+      <div class="content" id="content1">
+        <h3 class="question">
+          How do I check my order status?
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>iDeliverd has made it easy to keep track of account and orders. Sign into “ your account” and click on “orders” or use our tracking available on freight. You can
+            also check status in-app for quick commerce or our shipment partner FedEx and USPS through the waybill code shared after shipment confirmation.</p>
+        </div>
+
+        <h3 class="question">
+          Why isn't my package delivered in 5 days since I paid for expedited express?
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Kindly understand the 3~5 business days is only for shipping via Expedited Express, which does not include the processing time. Delivery Time doesn’t consists of
+            2 days processing time (Processing time is the time it takes to get your order ready to leave our warehouses.</p>
+        </div>
+
+        <h3 class="question">
+          I forgot my account
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>If you’ve forgotten your password, click on “Forgot your password”. We’ll ask you to enter your email account and then immediately send you anew password.</p>
+        </div>
+
+        <h3 class="question">
+          How to change my account/email address
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>If your original email address was written incorrectly and you don't have access to it, please don't worry. With this misspelled email address and your password,
+            you can still login in your account.</p>
+        </div>
+
+        <h3 class="question">
+          Can I rush my order?
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Unfortunately, at this time you are not allowed to rush your order. Orders are fulfillment in a queue. If you require that your order arrives before a specific day
+            or in case you need products urgently, you should reach out to Customer Support.</p>
+        </div>
+
+        <h3 class="question">
+          How to receive the invoice of my order?
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>We’re sorry that our website don’t have invoice self-download service. However, you may contact customer service to request a invoice of your order.</p>
+        </div>
+
+        <h3 class="question">
+          How do I update my shipping or billing address?
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>To change and/or update a shipping address or billing address, manage this segment on your address book.</p>
+        </div>
+
+        <h3 class="question">
+          Can I register the account with mobile phone number?
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Yes, you can register the account with mobile phone number when signing up for any iDeliverd products.</p>
+        </div>
+
+        <h3 class="question">
+          Can I purchase without registration?
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Once you have added items to the shopping cart you will be required to signup before proceeding. This process enable us curb any fraudulent activities.</p>
+        </div>
+
+        <h3 class="question">
+          What if my shipping address is different than my billing address?
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>During the checkout process, you have the option to enter a different billing address by clicking “Edit” at the "Billing Address" section in checkout. ensure the
+            billing address you enter below matches the name and address associated with the credit card you are using for this purchase. Please note your billing address
+            and shipping address country must be the same.</p>
+        </div>
+      </div>
+
+      <div class="content" id="content2">
+        <h3 class="question">
+          Question Payments
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+      
+      </div>
+
+
+      <div class="content" id="content3">
+        <h3 class="question">
+          Question Return
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+      
+      </div>
+
+
+      <div class="content" id="content4">
+        <h3 class="question">
+          Question Franchise
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+      
+      </div>
+
+
+      <div class="content" id="content5">
+        <h3 class="question">
+          Question Integration
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+      
+      </div>
+
+
+      <div class="content" id="content6">
+        <h3 class="question">
+          Question Shipping
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+
+        <h3 class="question">
+          Question 
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </h3>
+        <div class="answer">
+          <p>Answer</p>
+        </div>
+      
+      </div>
+
+
+
+      <!-- Add more content blocks for other categories -->
+
+    </div>
+  </section>
+  
+
+  <script>
+    $(document).ready(function() {
+      $(".header").click(function() {
+        // Remove active class from all headers
+        $(".header").removeClass("active2");
+        // Add active class to the clicked header
+        $(this).addClass("active2");
+
+        // Hide all content blocks
+        $(".content").hide();
+        // Show the content block associated with the clicked header
+        $("#" + $(this).data("target")).show();
+      });
+
+      $(".question").click(function() {
+        // Toggle the expanded class on the question
+        $(this).toggleClass("expanded");
+        // Toggle the answer visibility
+        $(this).next(".answer").slideToggle();
+      });
+
+      // Hide the answers by default
+      $(".answer").hide();
+
+      // Show the content for the initially active header
+      $(".active2").click();
+    });
+  </script>
+   
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6 text-lg-left text-center">
+          <div class="copyright">
+            &copy; 2023 <strong> iDeliverd Technologies</strong> &nbsp; <i class="fa fa-globe" aria-hidden="true"></i> ENG <!-- Glob ENG -->
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+            <a href="#intro" class="scrollto">Support</a>
+            <a href="#about" class="scrollto">Status</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script>
+    // JavaScript code to loop through the words
+    const typewriterWords = document.querySelectorAll('.typewriter span');
+    let wordIndex = 0;
+    
+    function typeWords() {
+      typewriterWords[wordIndex].style.display = 'inline-block';
+      typewriterWords[wordIndex].classList.add('typewriter');
+    
+      setTimeout(function() {
+        setTimeout(function() {
+          typewriterWords[wordIndex].classList.remove('typewriter');
+          typewriterWords[wordIndex].style.display = 'none';
+          wordIndex = (wordIndex + 1) % typewriterWords.length;
+          typeWords();
+        }, 1000); // Delay before deleting the word (1 second)
+      }, 4000); // Delay before typing the next word (4 seconds)
+    }
+    
+    typeWords();
+    </script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
