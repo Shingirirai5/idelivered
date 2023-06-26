@@ -580,6 +580,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 10px;
   padding: 10px; /* Adjust the padding as needed */
   border-radius: 5px;
+  width: 100%;
 }
 
 
@@ -909,6 +910,32 @@ section {
   color: #222222;
 }
 
+#counts .row {
+  display: flex;
+  align-items: center;
+}
+
+#counts .column {
+  flex: 1;
+}
+
+#counts .column .image-height {
+  max-height: 100px; /* Adjust the value as per your preference */
+}
+
+
+#counts .text-container {
+  margin-left: 20px; /* Adjust the margin as needed */
+}
+
+#counts .text-container h3,
+#counts .text-container p,
+#counts .text-container a {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
 
 .counts .column .btn-learn-more {
   font-family: "Raleway", sans-serif;
@@ -1070,6 +1097,17 @@ section {
   line-height: 1px;
   overflow: hidden;
   background: #fff;
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.services .icon-box7 {
+  padding: 30px;
+  position: relative;
+  line-height: 1px;
+  overflow: hidden;
+  background: rgb(235, 234, 234);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
@@ -2065,33 +2103,33 @@ hr {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #fff;
+  background: black;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 30px 0;
-  color: #222222;
+  color: white;
   font-size: 14px;
 }
 
 #footer .separator {
   margin: 0 5px; /* Adjust the spacing around the separator */
-  color: #000; /* Set the color of the separator */
+  color: white; /* Set the color of the separator */
   font-weight: bold; /* Optionally set the font weight */
 }
 
 
 .separator {
   margin: 0 5px; /* Adjust the spacing around the separator */
-  color: #000; /* Set the color of the separator */
+  color: white; /* Set the color of the separator */
   font-weight: bold; /* Optionally set the font weight */
 }
 #footer .credits {
   font-size: 13px;
   padding-top: 5px;
-  color: #222222;
+  color: white;
 }
 
 #footer .footer-links a {
-  color: #222222;
+  color: white;
   padding-left: 15px;
 }
 
