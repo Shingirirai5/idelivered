@@ -1119,6 +1119,22 @@ section {
   z-index: 1;
 }
 
+.services .icon-box6 {
+  padding: 30px;
+  position: relative;
+  text-align: center;
+  line-height: 1px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  line-height: 1.2;
+  overflow: hidden;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+  border: 2px solid #393838; 
+  margin-bottom: 30px;
+}
+
 .services .icon-box3 {
   padding: 30px;
   position: relative;
