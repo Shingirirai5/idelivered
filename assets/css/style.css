@@ -554,6 +554,20 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #000000;
 }
 
+#hero .btn-get-started4 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: small;
+  background: #000;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 35px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #ffffff;
+  border: 2px solid #000000;
+}
+
 #hero .btn-get-started2 {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -596,6 +610,9 @@ h1, h2, h3, h4, h5, h6 {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
+#hero .rounded {
+  border-radius: 10%;
+}
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
