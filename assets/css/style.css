@@ -535,6 +535,22 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
 }
 
+#hero h4 {
+  margin: 0 0 10px 0;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 50px;
+  color: black;
+}
+
+#hero h5 {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: black;
+}
+
 #hero h2 {
   color: #484848;
   margin-bottom: 50px;
