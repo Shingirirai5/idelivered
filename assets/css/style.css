@@ -1275,10 +1275,10 @@ section {
 }
 
 .services .read-more a {
-  color: #393838;
+  color: black;
   text-transform: uppercase;
-  font-weight: 600;
-  font-size: 12px;
+  font-weight: 700;
+  font-size: 13px;
   transition: 0.4s;
 }
 
