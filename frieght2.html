@@ -105,8 +105,23 @@
 
     <div class="container">
       <div class="row">
+        <style>
+          .bullet-stop::after {
+            content: "\2022"; /* Unicode character for bullet point */
+            display: inline-block;
+            vertical-align: middle;
+            line-height: 0;
+            color: #800000;
+          }
+        </style>
+
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h4 data-aos="fade-up" style="size: 170px;">Intelligent Freight <br>  Service<span style="color: #800000; font-size: 50px;">. </span> </h4>
+          <h4 data-aos="fade-up" style="size: 170px;">Intelligent <br> Freight Service<span style="color: #800000;" class="bullet-stop"></span> </h4>
+  
+          
+       
+          
+          
           <h5 data-aos="fade-up" data-aos-delay="400">Efficient priority freight and last-mile service through iDeliverdONE app and web.</h5>
           <div data-aos="fade-up" data-aos-delay="800">
             <a href="#" class="btn-get-started4 scrollto">Get Started</a>
