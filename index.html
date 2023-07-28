@@ -33,6 +33,55 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <style>
+  
+    .popup {
+        position: fixed;
+        bottom: 20px;
+        left: 50px;
+        right: 50px;
+        max-width: 800px;
+        padding: 15px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        display: none;
+        z-index: 9999;
+    }
+
+    .popup-content {
+        font-size: 10px;
+    }
+
+    .popup h2 {
+        font-size: 12px;
+        margin: 0 0 10px;
+        font-weight: 800;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #moreOptionsBtn {
+        background-color: #ccc;
+    }
+
+    #acceptBtn {
+        background-color: #800000;
+        color: #fff;
+    }
+</style>
+
 
 </head>
 
@@ -592,6 +641,7 @@
                                                           <a href="terms.html">Terms of Use</a> <br>
 
                                                             <a href="#">EU Documents</a>
+                                                            <a href="#">California CPA</a>
 
                                           </p>
                                         </div>
@@ -600,22 +650,43 @@
                                       <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                                         <div class="icon-box7" data-aos="fade-up" data-aos-delay="100">
                                           <h4 class="title"><a href="">Download Apps</a></h4>
-                                          <p style="font-size: 14px; line-height: 30px; margin-bottom: 0px;" class="description">   <div data-aos="fade-up" data-aos-delay="800">
-                                            <a href="https://apps.apple.com/za/app/ideliverd/id1472972185 " ><img src="assets/img/1.jpg " style="height:30px "/></a>
+                                          <p style="font-size: 14px; line-height: 50px; margin-bottom: 0px;" class="description">   <div data-aos="fade-up" data-aos-delay="800">
+                                            <a href="https://apps.apple.com/za/app/ideliverd/id1472972185 "><img src="assets/img/1.jpg " style="height:30px "/></a>
                                             <a href="https://play.google.com/store/apps/details?id=com.ideliverd.user&hl=en&gl=US " ><img src="assets/img/2.jpg" style="height:30px "/></a>
                                             <br>
+                                           
                                             <br>
                                             <a href="https://apps.apple.com/za/app/ideliverd/id1472972185 " ><img src="assets/img/4.jpg " style="height:30px "/></a>
                                             <a href="https://play.google.com/store/apps/details?id=com.ideliverd.user&hl=en&gl=US " ><img src="assets/img/3.jpg" style="height:30px "/></a>
                             
                                           </div>
-                                        <br></p>
-                                          <p style="font-size: 14px; line-height: 1.8;" class="description" data-aos="fade-up" data-aos-delay="900" ><a href="#">California CPA</a></p>
+                                        </p>
+
                                         </div>
                                       </div>  
                                     </div>
                                   </div>
                                 </section><!-- End Services Section -->
+
+                                <div id="cookiePopup" class="popup">
+                                  <div class="popup-content">
+                                      <h2>We Value Your Privacy</h2>
+                                      <p>
+                                          We and our partner stores and/or access information on a device such as cookies
+                                          and process personal data, such as a unique identifier and standard information
+                                          sent by the device for personalized ads and contents, content measurement, audience
+                                          insight as well as to develop and improve products and solutions.
+                                      </p>
+                                      <p>
+                                          With your permission, we and our partners may use precise geolocation data and
+                                          identification through device scanning.
+                                      </p>
+                                      <div class="buttons">
+                                          <button id="moreOptionsBtn">More Options</button>
+                                          <button id="acceptBtn">I Accept</button>
+                                      </div>
+                                  </div>
+                              </div>
  
 
               
@@ -697,6 +768,36 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    window.addEventListener('load', function () {
+        const cookiePopup = document.getElementById('cookiePopup');
+
+        function showCookiePopup() {
+            cookiePopup.style.display = 'block';
+        }
+
+        function hideCookiePopup() {
+            cookiePopup.style.display = 'none';
+        }
+
+        const moreOptionsBtn = document.getElementById('moreOptionsBtn');
+        const acceptBtn = document.getElementById('acceptBtn');
+
+        moreOptionsBtn.addEventListener('click', function () {
+            // Replace this with the link to more options or your desired action
+            console.log('More options clicked');
+        });
+
+        acceptBtn.addEventListener('click', function () {
+            // Add your code to handle the acceptance of cookies here
+            hideCookiePopup();
+        });
+
+        // Show the cookie popup when the page loads
+        showCookiePopup();
+    });
+</script>
 
 </body>
 
